@@ -40,4 +40,16 @@ public class UserRegistrationTest {
         boolean validationResult = userRegistration.validateEmail("prithvi@outllok.");
         Assert.assertFalse(validationResult);
     }
+    //This test cases is used for testing mobile format
+    @Test
+    public void givenMobileNumber_WhenProper_ShouldReturnTrue() {
+        boolean validationResult = userRegistration.validateMobileNumber("9494949494");
+        Assert.assertTrue(validationResult);
+    }
+
+    @Test
+    public void givenMobileNumber_WhenShort_ShouldReturnFalse() {
+        boolean validationResult = userRegistration.validateMobileNumber("956621");
+        Assert.assertFalse(validationResult);
+    }
 }
