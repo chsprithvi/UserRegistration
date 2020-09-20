@@ -52,4 +52,17 @@ public class UserRegistrationTest {
         boolean validationResult = userRegistration.validateMobileNumber("956621");
         Assert.assertFalse(validationResult);
     }
+    //This test cases is used for testing password format
+    @Test
+    public void givenPassword_whenProper_shouldReturnTrue() {
+        boolean result = userRegistration.validatePassword("prithvi12345678");
+        Assert.assertTrue(result);
+    }
+
+    @Test
+    public void givenPassword_WhenShort_ShouldReturnFalse() {
+        boolean result = userRegistration.validatePassword("prithvi");
+        Assert.assertFalse(result);
+    }
+    
 }
