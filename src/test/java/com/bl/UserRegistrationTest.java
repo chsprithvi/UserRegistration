@@ -7,7 +7,7 @@ public class UserRegistrationTest {
     UserRegistration userRegistration=new UserRegistration();
     @Test
     public void givenFirstName_whenProper_shouldReturnTrue() {
-        boolean result = userRegistration.validateName("Siddhartha");
+        boolean result = userRegistration.validateName("Prithvi");
         Assert.assertTrue(result);
     }
 
@@ -19,7 +19,7 @@ public class UserRegistrationTest {
 
     @Test
     public void givenFirstName_whenStartWithSmallLetters_shouldReturnFalse() {
-        boolean result = userRegistration.validateName("siddhartha");
+        boolean result = userRegistration.validateName("prithvi");
         Assert.assertFalse(result);
     }
 }

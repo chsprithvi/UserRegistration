@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.UserRegistrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-20T11:50:11" hostname="cspr" time="0.003">
+<testsuite name="com.bl.UserRegistrationTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2020-09-20T12:04:01" hostname="cspr" time="0.003">
   <properties/>
   <testcase name="givenFirstName_whenShort_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenStartWithSmallLetters_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenFirstName_whenStartWithSmallLetters_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
