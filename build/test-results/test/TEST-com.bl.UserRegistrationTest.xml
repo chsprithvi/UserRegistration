@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-09-20T13:54:55" hostname="cspr" time="0.007">
+<testsuite name="com.bl.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-09-20T13:59:29" hostname="cspr" time="0.014">
   <properties/>
-  <testcase name="givenEmail_WhenMissingCompulsoryPart_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.002"/>
-  <testcase name="givenPassword_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenMobileNumber_WhenProper_ShouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenEmail_WhenMissingCompulsoryPart_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenPassword_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenMobileNumber_WhenProper_ShouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.001"/>
   <testcase name="givenFirstName_whenShort_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
   <testcase name="givenEmail_whenMissingMandotarySymbols_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenEmail_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenEmail_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_WhenShort_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_whenStartWithSmallLetters_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenMobileNumber_WhenShort_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenMobileNumber_WhenShort_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

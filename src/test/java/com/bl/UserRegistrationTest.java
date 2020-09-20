@@ -55,7 +55,7 @@ public class UserRegistrationTest {
     //This test cases is used for testing password format
     @Test
     public void givenPassword_whenProper_shouldReturnTrue() {
-        boolean result = userRegistration.validatePassword("prithvi12345678");
+        boolean result = userRegistration.validatePassword("Prithvi12345678");
         Assert.assertTrue(result);
     }
 
@@ -64,5 +64,5 @@ public class UserRegistrationTest {
         boolean result = userRegistration.validatePassword("prithvi");
         Assert.assertFalse(result);
     }
-    
+
 }
