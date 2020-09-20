@@ -55,13 +55,13 @@ public class UserRegistrationTest {
     //This test cases is used for testing password format
     @Test
     public void givenPassword_whenProper_shouldReturnTrue() {
-        boolean result = userRegistration.validatePassword("Prithvi12345678");
+        boolean result = userRegistration.validatePassword("Prithvi123@45678");
         Assert.assertTrue(result);
     }
 
     @Test
     public void givenPassword_WhenShort_ShouldReturnFalse() {
-        boolean result = userRegistration.validatePassword("prithvi");
+        boolean result = userRegistration.validatePassword("prithviP35");
         Assert.assertFalse(result);
     }
 

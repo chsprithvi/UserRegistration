@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.bl.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-09-20T14:01:52" hostname="cspr" time="0.005">
+<testsuite name="com.bl.UserRegistrationTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2020-09-20T14:04:36" hostname="cspr" time="0.007">
   <properties/>
-  <testcase name="givenEmail_WhenMissingCompulsoryPart_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenEmail_WhenMissingCompulsoryPart_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.002"/>
   <testcase name="givenPassword_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenMobileNumber_WhenProper_ShouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenFirstName_whenShort_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.001"/>
-  <testcase name="givenEmail_whenMissingMandotarySymbols_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
-  <testcase name="givenEmail_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenMobileNumber_WhenProper_ShouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenFirstName_whenShort_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
+  <testcase name="givenEmail_whenMissingMandotarySymbols_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.001"/>
+  <testcase name="givenEmail_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_whenProper_shouldReturnTrue" classname="com.bl.UserRegistrationTest" time="0.0"/>
   <testcase name="givenPassword_WhenShort_ShouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
   <testcase name="givenFirstName_whenStartWithSmallLetters_shouldReturnFalse" classname="com.bl.UserRegistrationTest" time="0.0"/>
