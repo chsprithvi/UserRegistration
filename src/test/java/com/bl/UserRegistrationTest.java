@@ -22,4 +22,22 @@ public class UserRegistrationTest {
         boolean result = userRegistration.validateName("prithvi");
         Assert.assertFalse(result);
     }
+    //This test case is used for testing email format
+    @Test
+    public void givenEmail_whenProper_shouldReturnTrue() {
+        boolean validationResult = userRegistration.validateEmail("prithvi@gmail.com");
+        Assert.assertTrue(validationResult);
+    }
+
+    @Test
+    public void givenEmail_whenMissingMandotarySymbols_shouldReturnFalse() {
+        boolean validationResult = userRegistration.validateEmail("prithvi.com");
+        Assert.assertFalse(validationResult);
+    }
+
+    @Test
+    public void givenEmail_WhenMissingCompulsoryPart_ShouldReturnFalse() {
+        boolean validationResult = userRegistration.validateEmail("prithvi@outllok.");
+        Assert.assertFalse(validationResult);
+    }
 }
